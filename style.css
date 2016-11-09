@@ -1,0 +1,94 @@
+body {
+  /*background-color: #73e2c3;*/
+  background-image: url(images/library.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #98a09e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  color: #FECD2E;
+  /*color: #1AA0DA;*/
+}
+
+img {
+  width: 250px;
+  /*border: 1px solid black;*/
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: #98a09e;
+}
+
+a:hover {
+  text-decoration: underline;
+  /*box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);*/
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  margin: 20 auto;
+  width: 850px;
+}
+
+.card-table {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-table td {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.card-table h3 {
+  color: #73e2c3;
+}
+
+#me {
+  border-radius: 50%;
+  width: 200px;
+}
+
+#linkedin {
+  color: #1D87BE;
+}
+
+#soundcloud {
+  color: #FF6900;
+}
+
+#lolita:hover {
+  content: url('images/nabokov.jpg');
+}
+
+#mousquetaires:hover {
+  content: url('images/dumas.jpg');
+}
+
+#brooklyn:hover {
+  content: url('images/selby.jpeg');
+}
