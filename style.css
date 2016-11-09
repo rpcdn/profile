@@ -83,12 +83,18 @@ td {
 
 #lolita:hover {
   content: url('images/nabokov.jpg');
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
 }
 
 #mousquetaires:hover {
   content: url('images/dumas.jpg');
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
 }
 
 #brooklyn:hover {
   content: url('images/selby.jpeg');
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
 }
